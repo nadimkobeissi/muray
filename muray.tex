@@ -1,0 +1,52 @@
+% !TeX root = muray.tex
+% !TEX program = lualatex
+
+\documentclass[14pt,oneside,american,a4paper]{memoir}
+\input{etc/config.tex}
+
+\title{The Empire of the Good}
+\author{Philippe Muray}
+\date{}
+\begin{document}
+
+\frontmatter
+\input{etc/cover.tex}
+\clearpage
+
+\input{etc/notes.tex}
+\clearpage
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{The Empire of the Good}
+\fancyfoot[LE,RO]{\thepage}
+\input{chap/preface.tex}
+\clearpage
+
+\fancyhf{}
+\input{etc/quote.tex}
+\clearpage
+
+\tableofcontents
+\clearpage
+
+\mainmatter
+\fancyhead[LE,RO]{The Empire of the Good}
+\fancyfoot[LE,RO]{\thepage}
+\input{chap/1.tex}
+\input{chap/2.tex}
+\input{chap/3.tex}
+\input{chap/4.tex}
+\input{chap/5.tex}
+\input{chap/6.tex}
+\input{chap/7.tex}
+\input{chap/8.tex}
+\input{chap/9.tex}
+\input{chap/10.tex}
+\input{chap/11.tex}
+\input{chap/12.tex}
+
+\backmatter
+\input{etc/author.tex}
+
+\end{document}
