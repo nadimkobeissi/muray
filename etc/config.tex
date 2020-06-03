@@ -4,10 +4,15 @@
 \usepackage{graphicx}
 \usepackage{
 	hyperxmp,bookmark,nameref,url,
-	color,xcolor,microtype,keystroke,
+	color,xcolor,keystroke,
 	enumitem,fontspec,fancyhdr,titlesec,lipsum
 }
+\usepackage[Glenn]{fncychap}
 \usepackage[english]{babel}
+\usepackage{microtype}
+\PassOptionsToPackage{activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10,protrusion=true,expansion=true}{microtype}
+\usepackage{fontspec}
+\PassOptionsToPackage{activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10,protrusion=true,expansion=true}{microtype}
 \newcommand\nbvspace[1][3]{\vspace*{\stretch{#1}}}
 \newcommand\nbstretchyspace{\spaceskip0.5em plus 0.25em minus 0.25em}
 \newcommand{\nbtitlestretch}{\spaceskip0.6em}
